@@ -1,20 +1,33 @@
-# hardhat-simple-storage-fcc
+# Hardhat Simple Storage
 
-This project is about learning the fundamentals with the hardhat framework. It is a simple smart contract that stores a value and allows the owner to update it. And then we wrote a deploy script and installed a nodejs compiler (solc) to compile the smart contract.
+This project is about learning the fundamentals with the hardhat framework. It is a simple smart contract that stores a value and allows the owner to update it.
 
-## How the deployment of a smart contract works:
+## Sample Hardhat Project
 
-1. We compile the smart contract
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-    a) over solcjs inside terminal
+Try running some of the following tasks:
 
-    b) over solc as a a script
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
 
-    c) over another compiler
+The contracts were deployed to the Goerli testnet. You can verify them by running:
 
-2. We deploy the smart contract
+```shell
+npx hardhat verify --network goerli
+```
 
-    Connect to the blockchain therefore you need to get the rpc endpoint, either you own node (ether-go) or a third party (e.g. infura). With ganache it is eihter http://127.0.0.1:7545 or http://127.0.0.1:8545
+Contract Addresses:
+
+```shell
+0x88caac30366Ac88aCD972bdCD551842875F1950a
+0x1e627e2161840Fe060e6DE6318F072a803271471
+```
 
 # Credits
 

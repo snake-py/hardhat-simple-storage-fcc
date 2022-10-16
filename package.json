@@ -1,0 +1,29 @@
+{
+  "name": "hardhat-simple-storage-fcc",
+  "version": "1.0.0",
+  "description": "This project is about learning the fundamentals with the hardhat framework. It is a simple smart contract that stores a value and allows the owner to update it. And then we wrote a deploy script and installed a nodejs compiler (solc) to compile the smart contract.",
+  "main": "index.js",
+  "scripts": {
+    "hardhat": "hardhat $1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snake-py/hardhat-simple-storage-fcc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snake-py/hardhat-simple-storage-fcc/issues"
+  },
+  "homepage": "https://github.com/snake-py/hardhat-simple-storage-fcc#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.1",
+    "hardhat": "^2.12.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
